@@ -1,4 +1,4 @@
-// components/Sign-up.tsx
+// components/.tsx
 "use client"
 
 import { useEffect } from 'react';
@@ -8,7 +8,7 @@ const Login: React.FC = () => {
     // Magic Link script injection
     const script = document.createElement('script');
     script.src = 'https://auth.magic.link/pnp/login';
-    script.setAttribute('data-magic-publishable-api-key', 'pk_live_549DDF1068EA8707');
+    script.setAttribute('data-magic-publishable-api-key', 'PUBLISABLE_API_KEY');
     script.setAttribute('data-terms-of-service-uri', '/path/to/your/terms-of-service');
     script.setAttribute('data-privacy-policy-uri', '/path/to/your/privacy-policy');
     script.setAttribute('data-redirect-uri', '/callback'); // Replace with the location of your callback.html
